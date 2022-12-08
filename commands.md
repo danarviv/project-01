@@ -6,7 +6,9 @@ kubectl create deployment nginx-pod-dan --image=nginx:alpine
 
 2.
 kubectl create deployment messaging --image=redis:alpine
+
 edit pod <pods name>
+  
 tire=msg ##under the label section copy this
 
 3.
