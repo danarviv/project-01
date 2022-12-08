@@ -1,5 +1,5 @@
 # kubernets project-part-01
-# Commands of the first part of the projct
+Commands of the first part of the projct:
 
 1.
 kubectl create deployment nginx-pod-dan --image=nginx:alpine
