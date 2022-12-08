@@ -1,2 +1,2 @@
 # project-01
-john bryce k8s final project
+John Bryce k8s final project
