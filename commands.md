@@ -9,7 +9,7 @@ kubectl create deployment messaging --image=redis:alpine
 
 edit pod \<your pod name\>
   
-tire=msg ## copy this under the label section ##
+tire=msg          ## copy this under the label section ##
 
 3.
 kubectl create namespace apx-x998-dan
