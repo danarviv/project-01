@@ -1,3 +1,3 @@
-# john bryce fhinal exam/project
+# John Bryce fhinal exam/project
 
 by Dan Arviv
