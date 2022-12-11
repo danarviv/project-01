@@ -1,4 +1,4 @@
-# kubernets exam command solutions
+# kubernets command
 Commands part-01:
 
 1.
