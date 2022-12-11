@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: resolver-service
+  name: resolver-service
+  namespace: default
+spec:
+  selector:
+    app: resolver-service
+  ports:   
+  - name: resolver-service
+    protocol: TCP
+    port: 80
+    targetPort: 8
