@@ -25,11 +25,11 @@ kubectl label service messaging-service tier=msg
 
 OR
 
-YAML FILE
+kubectl apply -f https://raw.githubusercontent.com/danarviv/project-01/main/service.yaml
 
 7.
 
- kubectl create deployment hr-web-app --image=kodekloud/webapp-color --replicas=2
+kubectl create deployment hr-web-app --image=kodekloud/webapp-color --replicas=2
  
 8.
 
