@@ -39,7 +39,9 @@ kubectl run temp-bus --image=redis:alpine -n finance-dan
 
 11.
 
-kubectl apply -f pv-storage.yaml
+kubectl apply -f https://raw.githubusercontent.com/danarviv/project-01/main/volume-pod.yaml
+
+12
 
 
 
