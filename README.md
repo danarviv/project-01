@@ -41,6 +41,10 @@ kubectl create namespace finance-dan
 
 kubectl run temp-bus --image=redis:alpine -n finance-dan
 
+10.
+
+kubectl apply -f https://raw.githubusercontent.com/danarviv/project-01/main/pv-analytics.yaml
+
 11.
 
 kubectl apply -f https://raw.githubusercontent.com/danarviv/project-01/main/volume-pod.yaml
