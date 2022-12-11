@@ -2,7 +2,9 @@ apiVersion: v1
 kind: Pod  
 metadata: 
  name: nginx-resolver
+ labels:
+    app: revolver-service
 spec:
  containers: 
- - name: nginx-resolver 
+ - name: nginx-resolver
    image: nginx
