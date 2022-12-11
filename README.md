@@ -49,7 +49,20 @@ kubectl apply -f https://raw.githubusercontent.com/danarviv/project-01/main/pv-a
 
 kubectl apply -f https://raw.githubusercontent.com/danarviv/project-01/main/volume-pod.yaml
 
-12
+12.
+
+13.
+
+kubectl create deployment nginx-deploy --image=nginx:1.16 --replicas=1
+
+kubectl set image deployment nginx-deploy nginx=nginx:1.17 --record
+
+kubectl rollout history deployment nginx-deploy
+
+14
+
+
+
 
 
 
