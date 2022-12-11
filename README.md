@@ -19,12 +19,13 @@ kubectl get nodes -o json > /tmp/nodes-dan
 
 5,6.
 
-kubectl create deployment messaging --image=redis:alpine --port=6379
-
-kubectl expose deployment/messaging --type=ClusterIP --port=6379  --target-port=6379 --name=messaging-service
+kubectl create service clusterip messaging-service --tcp=6379:6379
 
 kubectl label service messaging-service tier=msg
 
+OR
+
+YAML FILE
 
 7.
 
