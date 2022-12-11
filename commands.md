@@ -21,4 +21,4 @@ kubectl expose deployment/messaging --type=ClusterIP --port=80  --target-port=63
 
 6.
 
-
+kubectl apply -f https://raw.githubusercontent.com/danarviv/project-01/main/static-pod.yaml
