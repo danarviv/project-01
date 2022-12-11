@@ -23,6 +23,9 @@ kubectl create deployment messaging --image=redis:alpine --port=6379
 
 kubectl expose deployment/messaging --type=ClusterIP --port=6379  --target-port=6379 --name=messaging-service
 
+kubectl label service messaging-service tier=msg
+
+
 7.
 
  kubectl create deployment hr-web-app --image=kodekloud/webapp-color --replicas=2
