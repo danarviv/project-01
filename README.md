@@ -57,7 +57,7 @@ https://raw.githubusercontent.com/danarviv/project-01/main/pv-1.yaml
 
 kubectl create deployment nginx-deploy --image=nginx:1.16 --replicas=1
 
-kubectl set image deployment nginx-deploy nginx=nginx:1.17 --record
+kubectl set image deployment nginx-deploy nginx=nginx:1.17 --record=true
 
 
 14.
