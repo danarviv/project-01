@@ -51,7 +51,7 @@ kubectl apply -f https://raw.githubusercontent.com/danarviv/project-01/main/volu
 
 12.
 
-https://raw.githubusercontent.com/danarviv/project-01/main/pv-1.yaml
+12-pv-1.yaml
 
 13.
 
