@@ -62,8 +62,7 @@ kubectl set image deployment nginx-deploy nginx=nginx:1.17 --record=true
 
 14.
 
-
-
+14-nginx-resolver-pod-01.yaml
 
 
 
