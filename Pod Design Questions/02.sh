@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: nginx
+  name: nginx-1
   labels:
     env: prod
 spec:
@@ -13,7 +13,7 @@ spec:
 apiVersion: v1
 kind: Pod
 metadata:
-  name: nginx
+  name: nginx-2
   labels:
     env: prod
 spec:
@@ -25,7 +25,7 @@ spec:
 apiVersion: v1
 kind: Pod
 metadata:
-  name: nginx
+  name: nginx-3
   labels:
     env: dev
 spec:
@@ -37,7 +37,7 @@ spec:
 apiVersion: v1
 kind: Pod
 metadata:
-  name: nginx
+  name: nginx-4
   labels:
     env: dev
 spec:
@@ -49,7 +49,7 @@ spec:
 apiVersion: v1
 kind: Pod
 metadata:
-  name: nginx
+  name: nginx-5
   labels:
     env: dev
 spec:
