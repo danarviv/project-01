@@ -70,6 +70,7 @@ kubectl set image deployment nginx-deploy nginx=nginx:1.17 --record=true
 
 16.
 
+16-multi-pod.yaml
 
 
 
