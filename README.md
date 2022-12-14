@@ -33,7 +33,7 @@ kubectl create deployment hr-web-app --image=kodekloud/webapp-color --replicas=2
  
 8.
 
-kubectl apply -f static-pod.yaml
+kubectl apply -f 8-static-pod.yaml
 
 9.
 
@@ -43,11 +43,11 @@ kubectl run temp-bus --image=redis:alpine -n finance-dan
 
 10.
 
-kubectl apply -f pv-analytics.yaml
+kubectl apply -f 10-pv-analytics.yaml
 
 11.
 
-kubectl apply -f volume-pod.yaml
+kubectl apply -f 11-volume-pod.yaml
 
 12.
 
