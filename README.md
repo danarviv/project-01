@@ -1,4 +1,4 @@
-# kubernets command/answers
+# Kubernets command/answers
 Commands part-01:
 
 1.
