@@ -25,7 +25,7 @@ kubectl label service messaging-service tier=msg
 
 OR
 
-kubectl apply -f https://raw.githubusercontent.com/danarviv/project-01/main/service.yaml
+kubectl apply -f 6-messaging-service.yaml
 
 7.
 
