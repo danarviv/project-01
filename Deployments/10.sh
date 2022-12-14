@@ -5,6 +5,7 @@ a.
 
 kubectl get pods
 
+NAME                      READY   STATUS         RESTARTS   AGE
 webapp-7f565f774d-gn44h   0/1     ErrImagePull   0          3s
 
 b.
