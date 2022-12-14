@@ -9,8 +9,8 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-        image: busybox
       - name: hello-job
+        image: busybox
         command:
         - echo
         - Hello I am from job
