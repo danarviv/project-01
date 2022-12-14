@@ -4,10 +4,6 @@ kubectl apply -f webapp.yaml
 
 kubectl edit -f webapp.yaml
 
-replicas: 1 
-
-to
-
 replicas: 5
 
 kubectl get pod
