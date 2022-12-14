@@ -10,8 +10,8 @@ spec:
   - image: nginx
     name: use-pv
     volumeMounts:
-    - name: nginx-persistent-storage
-      mountPath: /data
+      name: pv-1
+    - mountPath: /data
   volumes:
   - name: pv-1
     resources: {}
